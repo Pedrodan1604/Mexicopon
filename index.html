@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mexicopon | Importaciones de Japón a México desde Aguascalientes</title>
+<meta name="description" content="Compramos en Japón, verificamos, importamos y entregamos en México. Trámite aduanal incluido y seguimiento en cada etapa. Desde Aguascalientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --indigo:#16233A;
+  --indigo-2:#24365A;
+  --papel:#F5F6F8;
+  --blanco:#FFFFFF;
+  --rojo:#BC002D;
+  --verde:#006847;
+  --gris:#5A6577;
+  --linea:#D9DDE4;
+  --serif:"Shippori Mincho","Hiragino Mincho ProN",Georgia,serif;
+  --sans:"Zen Kaku Gothic New","Hiragino Sans","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--indigo);background:var(--papel);line-height:1.65;font-size:1.0625rem}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--rojo);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;font-weight:800}
+h2{font-size:clamp(1.8rem,4vw,2.6rem);max-width:20ch}
+p{max-width:62ch}
+
+/* Barra superior */
+.top{display:flex;justify-content:space-between;align-items:center;padding:1.1rem 0}
+.logo{font-family:var(--serif);font-weight:800;font-size:1.4rem;text-decoration:none;display:flex;align-items:center;gap:.55rem}
+.logo i{width:.95rem;height:.95rem;border-radius:50%;background:var(--rojo);display:inline-block}
+.top a.mini{font-weight:700;font-size:.95rem;text-decoration:none;border-bottom:2px solid var(--rojo);padding-bottom:2px}
+
+/* Botón */
+.btn{display:inline-block;background:var(--rojo);color:#fff;font-weight:700;text-decoration:none;padding:1rem 1.8rem;border-radius:4px;font-size:1.05rem;transition:background .2s,transform .2s}
+.btn:hover{background:#9c0025;transform:translateY(-2px)}
+.btn.claro{background:#fff;color:var(--indigo)}
+.btn.claro:hover{background:#ffe9ee}
+
+/* 1. EL GANCHO */
+.gancho{padding:2.5rem 0 5rem}
+.gancho .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:3rem;align-items:center}
+.gancho h1{font-size:clamp(2.3rem,5.6vw,4rem);margin-bottom:1.2rem}
+.gancho .tag{font-size:1.2rem;color:var(--gris);margin-bottom:2rem}
+.gancho .nota{margin-top:1rem;font-size:.92rem;color:var(--gris)}
+.sello{position:relative;aspect-ratio:1;max-width:420px;width:100%;justify-self:center}
+.sello .sol{position:absolute;inset:6%;border-radius:50%;background:var(--rojo)}
+.sello .ruta{position:absolute;left:0;right:0;bottom:12%;background:var(--indigo);color:#fff;padding:1.1rem 1.4rem;border-radius:4px;font-family:var(--serif);font-weight:800;font-size:1.25rem;display:flex;justify-content:space-between;gap:1rem;box-shadow:8px 8px 0 var(--verde)}
+.sello .ruta small{display:block;font-family:var(--sans);font-weight:400;font-size:.8rem;opacity:.8}
+.sello .foto{position:absolute;top:14%;left:14%;right:14%;text-align:center;color:#fff;font-size:.85rem;opacity:.9}
+
+/* 2. EL DOLOR */
+.dolor{background:var(--indigo);color:#fff;padding:5rem 0}
+.dolor h2{margin-bottom:2.5rem}
+.dolor ul{list-style:none;border-left:3px solid var(--rojo);padding-left:1.8rem;display:grid;gap:1.6rem;max-width:720px}
+.dolor li strong{display:block;font-family:var(--serif);font-size:1.25rem;margin-bottom:.15rem}
+.dolor li span{color:#C5CCDA}
+.dolor .cierre{margin-top:2.5rem;font-size:1.2rem;font-family:var(--serif)}
+
+/* 3. LA SOLUCIÓN / EVIDENCIA */
+.solucion{padding:5rem 0}
+.solucion h2{margin-bottom:.8rem}
+.solucion .intro{color:var(--gris);margin-bottom:3rem}
+.pasos{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:p;border-top:3px solid var(--indigo)}
+.pasos li{counter-increment:p;padding:1.5rem 1.3rem 1.5rem 0;position:relative}
+.pasos li+li{padding-left:1.3rem;border-left:1px solid var(--linea)}
+.pasos li::before{content:counter(p);font-family:var(--serif);font-weight:800;font-size:2.2rem;color:var(--rojo);display:block;line-height:1;margin-bottom:.6rem}
+.pasos h3{font-size:1.15rem;margin-bottom:.4rem}
+.pasos p{font-size:.97rem;color:var(--gris)}
+.dif{margin-top:3.5rem;display:grid;grid-template-columns:repeat(2,1fr);gap:1rem 3rem}
+.dif div{padding:1rem 0;border-bottom:1px solid var(--linea)}
+.dif b{display:block;font-family:var(--serif);font-size:1.1rem}
+.dif span{color:var(--gris);font-size:.97rem}
+
+/* 4. PRUEBA SOCIAL */
+.prueba{background:var(--blanco);padding:5rem 0;border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+.prueba h2{margin-bottom:2.5rem}
+.cita{display:grid;grid-template-columns:repeat(2,1fr);gap:2.5rem;margin-bottom:3rem}
+blockquote{border-left:4px solid var(--verde);padding-left:1.3rem;font-family:var(--serif);font-size:1.2rem;line-height:1.5}
+blockquote footer{font-family:var(--sans);font-size:.9rem;color:var(--gris);margin-top:.7rem}
+.respaldo{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;font-size:.97rem}
+.respaldo b{display:block;font-family:var(--serif);font-size:1.05rem;margin-bottom:.2rem}
+.ph{background:#FFF4CC;padding:0 .3rem;border-radius:2px}
+
+/* 5. CALL TO ACTION */
+.cta{background:var(--rojo);color:#fff;padding:5rem 0;text-align:center}
+.cta h2{margin:0 auto 1rem;max-width:22ch}
+.cta p{margin:0 auto 2rem;opacity:.95}
+.cta .aux{margin-top:1.2rem;font-size:.95rem}
+
+footer.pie{padding:2.5rem 0;font-size:.9rem;color:var(--gris)}
+footer.pie .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+
+/* Una sola animación de entrada, respetando preferencias */
+@media (prefers-reduced-motion:no-preference){
+  .sello .sol{animation:sale 1.1s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes sale{from{transform:scale(.6);opacity:0}to{transform:scale(1);opacity:1}}
+}
+
+@media (max-width:860px){
+  .gancho .wrap{grid-template-columns:1fr}
+  .pasos{grid-template-columns:1fr 1fr}
+  .pasos li:nth-child(3){padding-left:0;border-left:0}
+  .dif,.cita,.respaldo{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  .pasos{grid-template-columns:1fr}
+  .pasos li,.pasos li+li{padding-left:0;border-left:0;border-bottom:1px solid var(--linea)}
+}
+</style>
+</head>
+<body>
+
+<header class="wrap top">
+  <a class="logo" href="#"><i aria-hidden="true"></i>Mexicopon</a>
+  <a class="mini" href="#cotizar">Cotizar</a>
+</header>
+
+<main>
+
+<!-- 1. EL GANCHO: promesa de valor + tagline + imagen humana -->
+<section class="gancho">
+  <div class="wrap">
+    <div>
+      <h1>Lo que quieres de Japón, en tu puerta en México.</h1>
+      <p class="tag">Compramos, importamos y entregamos. Tú no tocas la aduana. Operamos desde Aguascalientes.</p>
+      <a class="btn" href="#cotizar">Cotiza tu primera importación</a>
+      <p class="nota">Respuesta por WhatsApp en horario laboral, sin compromiso.</p>
+    </div>
+    <div class="sello" role="img" aria-label="Ruta de envío de Japón a Aguascalientes">
+      <div class="sol"></div>
+      <!-- REEMPLAZAR: coloca aquí una foto real de tu equipo recibiendo o empacando un pedido (imagen humana/empática) -->
+      <div class="foto">[Foto del equipo Mexicopon]</div>
+      <div class="ruta">
+        <div>日本<small>Origen</small></div>
+        <div>Aguascalientes<small>Destino</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. EL DOLOR: empatía con el problema actual -->
+<section class="dolor">
+  <div class="wrap">
+    <h2>Importar de Japón por tu cuenta cansa.</h2>
+    <ul>
+      <li><strong>Muchas tiendas japonesas no envían a México.</strong><span>Encuentras el producto perfecto y el carrito se rechaza al poner tu dirección.</span></li>
+      <li><strong>Los costos aparecen al final.</strong><span>Envío, impuestos y gastos de aduana llegan después de pagar, y el precio ya no es el que viste.</span></li>
+      <li><strong>No sabes dónde está tu paquete.</strong><span>Sin guía clara ni respuestas, pasas semanas esperando sin saber si llegará.</span></li>
+      <li><strong>Comprar a un desconocido da miedo.</strong><span>Sobre todo en subastas y reventa: ¿es original?, ¿llegará en buen estado?</span></li>
+    </ul>
+    <p class="cierre">Entendemos lo que se siente. Por eso lo resolvemos nosotros.</p>
+  </div>
+</section>
+
+<!-- 3. LA SOLUCIÓN / EVIDENCIA: método, diferenciador traducido a beneficios -->
+<section class="solucion">
+  <div class="wrap">
+    <h2>Un proceso claro, de Japón a tu puerta.</h2>
+    <p class="intro">Cuatro pasos, con precio total acordado antes de que pagues.</p>
+    <ol class="pasos">
+      <li><h3>Nos dices qué quieres</h3><p>Envías el enlace o la descripción del producto. Te cotizamos el costo total, con impuestos y envío incluidos.</p></li>
+      <li><h3>Compramos por ti en Japón</h3><p>Pagamos al vendedor japonés y revisamos el producto antes de enviarlo.</p></li>
+      <li><h3>Lo importamos legalmente</h3><p>Nos encargamos del envío internacional y del trámite aduanal en México.</p></li>
+      <li><h3>Lo recibes con seguimiento</h3><p>Te avisamos en cada etapa y te lo entregamos en tu domicilio o lo recoges en Aguascalientes.</p></li>
+    </ol>
+    <div class="dif">
+      <div><b>Precio final desde el inicio</b><span>Sin cargos sorpresa en la aduana. Lo que cotizamos es lo que pagas.</span></div>
+      <div><b>Compras donde otros no pueden</b><span>Tiendas y subastas japonesas que no envían a México, accesibles para ti.</span></div>
+      <div><b>Revisión antes del envío</b><span>Verificamos que el producto coincida con lo que compraste.</span></div>
+      <div><b>Atención local y en español</b><span>Hablas con una persona en Aguascalientes, no con un buzón.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PRUEBA SOCIAL: testimonios éticos, respaldos, alianzas -->
+<section class="prueba">
+  <div class="wrap">
+    <h2>Por qué confiar en Mexicopon.</h2>
+    <div class="cita">
+      <!-- REEMPLAZAR con testimonios reales y autorizados por escrito. No publiques testimonios inventados. -->
+      <blockquote>
+        <span class="ph">[Testimonio real de un cliente: qué compró, cuánto tardó y cómo fue la experiencia]</span>
+        <footer><span class="ph">[Nombre, ciudad]</span></footer>
+      </blockquote>
+      <blockquote>
+        <span class="ph">[Segundo testimonio real]</span>
+        <footer><span class="ph">[Nombre, ciudad]</span></footer>
+      </blockquote>
+    </div>
+    <div class="respaldo">
+      <!-- REEMPLAZAR con datos verificables de tu empresa -->
+      <div><b>Trámite aduanal formal</b>Operamos con <span class="ph">[nombre de tu agente aduanal]</span> y las importaciones se declaran ante el SAT.</div>
+      <div><b>Empresa registrada</b><span class="ph">[Razón social y RFC]</span>, domicilio en Aguascalientes, Ags.</div>
+      <div><b>Tu carga protegida</b><span class="ph">[Seguro de carga y paquetería aliada, si aplica]</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. CALL TO ACTION -->
+<section class="cta" id="cotizar">
+  <div class="wrap">
+    <h2>Dinos qué quieres traer de Japón.</h2>
+    <p>Te respondemos con el precio total y los tiempos de entrega, antes de que pagues nada.</p>
+    <!-- REEMPLAZAR 52XXXXXXXXXX por tu número de WhatsApp con lada (ej. 524491234567) -->
+    <a class="btn claro" href="https://wa.me/52XXXXXXXXXX?text=Hola%20Mexicopon%2C%20quiero%20cotizar%20una%20importaci%C3%B3n%20de%20Jap%C3%B3n." rel="noopener">Cotizar por WhatsApp</a>
+    <p class="aux">¿Prefieres correo? <a href="mailto:hola@mexicopon.mx">hola@mexicopon.mx</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="wrap">
+    <span>© 2026 Mexicopon. Aguascalientes, Aguascalientes, México.</span>
+    <span>Importaciones de Japón a México</span>
+  </div>
+</footer>
+
+</body>
+</html>
