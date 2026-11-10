@@ -94,6 +94,15 @@ blockquote footer{font-family:var(--sans);font-size:.9rem;color:var(--gris);marg
 .cta p{margin:0 auto 2rem;opacity:.95}
 .cta .aux{margin-top:1.2rem;font-size:.95rem}
 
+.acciones{display:flex;flex-direction:column;align-items:center;gap:1.2rem}
+.llamar{display:inline-flex;flex-direction:column;align-items:center;gap:.3rem;background:#fff;color:var(--indigo);text-decoration:none;padding:1.3rem 2.8rem;border-radius:999px;font-family:var(--serif);font-weight:800;font-size:clamp(1.6rem,6vw,2.5rem);line-height:1.1;box-shadow:0 0 0 0 rgba(255,255,255,.75)}
+.llamar small{font-family:var(--sans);font-weight:500;font-size:.9rem;color:var(--gris)}
+.llamar:hover{background:#ffe9ee}
+@media (prefers-reduced-motion:no-preference){
+  .llamar{animation:pulso 1.8s ease-out infinite}
+  @keyframes pulso{0%{box-shadow:0 0 0 0 rgba(255,255,255,.75)}70%{box-shadow:0 0 0 26px rgba(255,255,255,0)}100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}}
+}
+
 footer.pie{padding:2.5rem 0;font-size:.9rem;color:var(--gris)}
 footer.pie .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
 
@@ -208,8 +217,10 @@ footer.pie .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1
   <div class="wrap">
     <h2>Dinos qué quieres traer de Japón.</h2>
     <p>Te respondemos con el precio total y los tiempos de entrega, antes de que pagues nada.</p>
-    <!-- REEMPLAZAR 52XXXXXXXXXX por tu número de WhatsApp con lada (ej. 524491234567) -->
-    <a class="btn claro" href="https://wa.me/52XXXXXXXXXX?text=Hola%20Mexicopon%2C%20quiero%20cotizar%20una%20importaci%C3%B3n%20de%20Jap%C3%B3n." rel="noopener">Cotizar por WhatsApp</a>
+    <div class="acciones">
+      <a class="llamar" href="tel:+524492276838"><small>Llama o escribe a este número</small>+52 449 227 6838</a>
+      <a class="btn claro" href="https://wa.me/524492276838?text=Hola%20Mexicopon%2C%20quiero%20cotizar%20una%20importaci%C3%B3n%20de%20Jap%C3%B3n." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+    </div>
     <p class="aux">¿Prefieres correo? <a href="mailto:hola@mexicopon.mx">hola@mexicopon.mx</a></p>
   </div>
 </section>
